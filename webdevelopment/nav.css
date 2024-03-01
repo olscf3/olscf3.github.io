@@ -27,26 +27,43 @@
 } */
 ul
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     list-style-type: none;
     padding: 0;
     margin: 0;
-    height: 90px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
 }
 li
 {
-    background: purple;
+    border: 1px solid black;
+    margin: 0.5em;
+    padding: 0.5em;
+    background: rgb(218, 152, 218);
     width: 125px;
-    margin: 0 15px 0 0;
-    padding: 5px;
     text-align: center;
 }
 a
 {
     text-decoration: none;
     color: #000;
+}
+.flex1
+{
+    order: 1;
+    border: 3px solid black;
+}
+.flex2
+{
+    order: 2;
+    border: 3px solid black;
+}
+.flex3
+{
+    order: 3;
+    border: 3px solid black;
 }
