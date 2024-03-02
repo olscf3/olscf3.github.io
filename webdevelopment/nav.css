@@ -1,4 +1,4 @@
-#nav_menu ul 
+/*#nav_menu ul 
 {
     list-style-type: none;
     padding: 1em 0;
@@ -38,7 +38,7 @@
     content: " ";
     display: block;
     clear: both;
-} 
+} */
 ul
 {
     list-style-type: none;
