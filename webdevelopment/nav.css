@@ -57,7 +57,7 @@ li
     border: 1px solid black;
     margin: 0.5em;
     padding: 0.5em;
-    background: rgb(218, 152, 218);
+    background: rgb(160, 98, 154);
     width: 125px;
     text-align: center;
 }
@@ -86,7 +86,7 @@ a
 /*-- UPDATED CSS --*/
 /* Dropdown Button */
 .dropbtn {
-    background-color: #04AA6D;
+    background-color: #da98da;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -124,4 +124,4 @@ a
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropdown:hover .dropbtn {background-color: #da98da;}
