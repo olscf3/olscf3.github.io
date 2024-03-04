@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-
 <!--
 
-Title: Webpage Template
+Title: Bio
 
-Use: Ties all webpages together through site-consistent coding
+Use: Gives background and general information about the author(me)
 
 Author: Olivia Sifuentes
 
@@ -14,40 +12,54 @@ School/Term: University of Missouri, Spring 2024
 
 Developed: Feburary 5, 2024
 
-Tested: Feburary 5, 2024, Passed on Chrome and Microsoft Edge
+Tested: March 4, 2024, Passed on Chrome and Microsoft Edge
 
 -->
-        <meta charset="utf-8">
-          <title>About Me</title>
+<head>
+<meta charset="utf-8">
+<title>Bio</title>
+<link rel="stylesheet"href="nav.css">
+<link rel="stylesheet"href="style.css">
 </head>
 <body>
+<nav>
+    <ul>
+        <li class= "flex1"> <a href="index.html">Home</a></li>
+        <li class= "flex2"> <a href="about.html">Bio</a></li>
+        <li class= "flex3"> <a href="project.html">Past Experience</a></li>
+        <li class= "flex4"> <a href="reflection.html">Reflection</a></li>
+    </ul>
+</nav>
     <header>
-        <h1> Authors Bio </h1>
+        <h1> Bio </h1>
     </header>
     <main>
     <div>
         <h2>Education Overview</h2>
-        <br/>
-        <p>I am currently working to get a bachelor’s degree in computer science.
+        
+        <p>
+            <div class="first-letter">
+                <p>I</p>
+            </div>
+             am currently working to get a bachelor’s degree in computer science.
             I am currently attending The University of Missouri. The expected completion 
             date for this degree will be the fall of 2026. So far, my experience with 
             technology courses taken in high school and college consists of first-level 
             classes in computer-integrated manufacturing, digital electronics, engineering 
-            design and development, basic C programming, and basic web development.</p>
-            <p>Link to resume <a href = "Resume.pdf">Resume.</a></p>
+            design and development, basic C programming, and basic web development.
+        </p>
+        <p>
+            Link to resume <a href = "/webdevelopment/Resume.pdf">Resume.</a>
+        </p>
     </div>
-    <div>
-        <h2> About Me</h2>
-        <br/>
-        <p>My name is Olivia Sifuentes. I am interested in pursuing the software development side of computer science. I enjoy designing and formatting the outputs of what I create. </p>
-        <br/>
+    <div class="indent">
+        <h2>Bio</h2>
+        
+        <p>My name is Olivia Sifuentes. I am interested in pursuing the software development 
+           side of computer science. I enjoy designing and formatting the outputs of what I create. </p>
     </div>
-    <div>
-        <p>One of my favorite quotes is by Winston Churchill, 
-            <blockquote>“Success is not final; failure is not fatal; it is the courage to continue that counts.”</blockquote>
-            This quote reminds the fact that life doesn’t stop after one event, good or bad. 
-            The will and <strong>motivation</strong> to continue life and complete my goals 
-            is a continuous cycle that will help me develop a successful life.</p>
+    <div> 
+            <blockquote>“Success is not final; failure is not fatal; it is the courage to continue that counts.” - Winston Churchill</blockquote>
     </div>
     </main>
     <footer>
