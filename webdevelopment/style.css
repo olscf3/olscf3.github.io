@@ -42,32 +42,53 @@ footer
     background-color:  rgb(211, 135, 255);
     text-align: center;
 }
-.education
+.container1
 {
-    display: grid;
+    position: relative;
+    text-align: center;
+    top: -20px;
+}
+.top-left
+{
     text-align: center;
     padding-right: 400px;
-    padding-left: 50px;
+    padding-left: 50px; 
+    position: absolute;
+    bottom: 8px;
+    top: 20px;
 }
 img
 {
-    height: 100px;
-    width: 100px;
-    padding-left: 1000px;
+    padding-left: 1050px;
 }
-.resume
+.bottomtext
 {
     text-align: center;
-    padding-left: 1000px;
+    padding-left: 1050px;
+    position: absolute;
 }
-.bio
+.container2
+{
+    position: relative;
+    text-align: center;
+    top: -50px;
+}
+/*.bio
+{
+    top: -20px;
+} */
+.left-text
 {
     text-align: center;
     padding-left: 50px;
     padding-right: 400px;
+    position: relative;
+    bottom: -20px;
+    left: 0px;
 }
-.resumevideo
+.video-link
 {
     text-align: center;
-    padding-left: 1000px;
+    position: absolute;
+    padding-left: 1110px;
 }
