@@ -51,7 +51,8 @@ footer
 }
 img
 {
-    size: 50px 50px;
+    height: 50px;
+    width: 50px;
     padding-left: 1150px;
 }
 .resume
