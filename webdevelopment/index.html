@@ -16,28 +16,41 @@ Tested: March 1, Passed on Chrome and Microsoft Edge
 
 -->
 <head>
+
 <title>Homepage</title>
 <meta charset="utf-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
 <link rel="stylesheet"href="nav.css">
 <link rel="stylesheet"href="style.css">
+
 </head>
+
 <body>
+
+<section class= "outer-box">
     <nav>
-        <ul>
-            <li class= "flex1"> <a href="index.html">Home</a></li>
-            <li class= "flex2"> <a href="about.html">Bio</a></li>
-            <li class= "flex3"> <a href="project.html">Past Expirence</a></li>
-            <li class= "flex4"> <a href="reflection.html">Reflection</a></li>
-            <li class= "flex5"><a href="#contact.html">Contact</a></li>
-        </ul>
+        <label id = "hamburger">&#9776;</label>
+            <ul>
+                <div>
+                    <h1 class="h1">Homepage</h1>
+                </div>
+                <div> <li class= "flex1"> <a href="index.html" class = "active">Home</a></li> </div>
+                <div> <li class= "flex2"> <a href="about.html">Bio</a></li> </div>
+                <div><li class= "flex3"> <a href="project.html">Past Experience</a></li> </div>
+                <div> <li class= "flex4"> <a href="reflection.html">Reflection</a></li> </div>
+                <div><li class= "flex5"><a href="#contact.html">Contact</a></li> </div>
+            </ul>
     </nav>
-   <header>
-    <h1>Homepage</h1>
-   </header>
-   <main>
-        <p>Welcome! This is my portfolio of different jobs and positions that I have worked in. </p>
-        
-        <div>
+</section>
+
+<main>
+    <section class = "container1">
+        <div class = "welcome">
+            <p>Welcome! This is my portfolio of different jobs and positions that I have worked in. </p>
+        </div>
+    </section>
+    <section class = "container2">
+        <div class = "introduction">
             <h2>Introduction</h2>
             <p>This website contains my work experience in chronological order for viewers. 
                 The purpose of this website is to display most of my experience as a worker 
@@ -51,9 +64,17 @@ Tested: March 1, Passed on Chrome and Microsoft Edge
                 qualities as a worker. This website will also demonstrate my basic understanding of web 
                 development and design.</p>
         </div>
-    </main>
+    </section>
+</main>
+
 <footer>
-    <p>&copy;Olivia Sifuentes olscf3@umsystem.edu</p>
+
+    <section>
+        <p>&copy;Olivia Sifuentes olscf3@umsystem.edu</p>
+    </section>
+
 </footer>
+
 </body>
+
 </html>
