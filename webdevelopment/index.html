@@ -12,7 +12,7 @@ School/Term: University of Missouri, Spring 2024
 
 Developed: Feburary 5, 2024
 
-Tested: March 1, Passed on Chrome and Microsoft Edge
+Tested: March 22, 2024 Passed on Chrome and Microsoft Edge
 
 -->
 <head>
@@ -27,31 +27,43 @@ Tested: March 1, Passed on Chrome and Microsoft Edge
 
 <body>
 
-<section class= "outer-box">
-    <nav>
-        <label id = "hamburger">&#9776;</label>
-            <ul>
-                <div>
-                    <h1 class="h1">Homepage</h1>
-                </div>
-                <div> <li class= "flex1"> <a href="index.html" class = "active">Home</a></li> </div>
-                <div> <li class= "flex2"> <a href="about.html">Bio</a></li> </div>
-                <div><li class= "flex3"> <a href="project.html">Past Experience</a></li> </div>
-                <div> <li class= "flex4"> <a href="reflection.html">Reflection</a></li> </div>
-                <div><li class= "flex5"><a href="#contact.html">Contact</a></li> </div>
-            </ul>
-    </nav>
-</section>
+    <section class = "outer-box">
+        <nav>
+            <label id="hamburger">&#9776;</label>
+            <div>
+                <h1 class="h1">Past Experience</h1>
+            
+                <ul class="lg_nav">
+                    <div><li class="flex1"> <a href="index.html" class = "active">Home</a></li></div>
+                    
+                    <div><li class="flex2"> <a href="about.html">Bio</a></li></div>
+                    <div><li class="flex3 dropdown"> <a href="project.html">Past Experience</a></li></div>
+                    <div class="dropdown-content">                    
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                    <div><li class="flex4"> <a href="reflection.html">Reflection</a></li></div>
+                    <div><li class= "flex5"><a href="#contact.html">Contact</a></li></div>
+                </ul>
+            </div>
+        </nav>
+    </section>
 
 <main>
-    <section class = "container1">
-        <div class = "welcome">
+    <section class = "container">
+        <div class = "content">
+            <div class = "description">
             <p>Welcome! This is my portfolio of different jobs and positions that I have worked in. </p>
         </div>
+        </div>
     </section>
-    <section class = "container2">
-        <div class = "introduction">
+    <section class = "container">
+        <div class = "title">
             <h2>Introduction</h2>
+        </div>
+        <div class = "content">
+            <div class = "description">
             <p>This website contains my work experience in chronological order for viewers. 
                 The purpose of this website is to display most of my experience as a worker 
                 and self-reflect on the different types of jobs and settings I have worked in. 
@@ -64,6 +76,7 @@ Tested: March 1, Passed on Chrome and Microsoft Edge
                 qualities as a worker. This website will also demonstrate my basic understanding of web 
                 development and design.</p>
         </div>
+    </div>
     </section>
 </main>
 

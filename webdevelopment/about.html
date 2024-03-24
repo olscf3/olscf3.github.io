@@ -12,7 +12,7 @@ School/Term: University of Missouri, Spring 2024
 
 Developed: Feburary 5, 2024
 
-Tested: March 4, 2024, Passed on Chrome and Microsoft Edge
+Tested: March 22, 2024, Passed on Chrome and Microsoft Edge
 
 -->
 <head>
@@ -27,30 +27,39 @@ Tested: March 4, 2024, Passed on Chrome and Microsoft Edge
 
 <body>
 
-<section class="outer-box">
-    <nav>
-        <ul>
+    <section class = "outer-box">
+        <nav>
+            <label id="hamburger">&#9776;</label>
             <div>
-                <h1 class="h1">Bio</h1>
+                <h1 class="h1">Past Experience</h1>
+            
+                <ul class="lg_nav">
+                    <div><li class="flex1"> <a href="index.html">Home</a></li></div>
+                    
+                    <div><li class="flex2"> <a href="about.html" class = "active">Bio</a></li></div>
+                    <div><li class="flex3 dropdown"> <a href="project.html">Past Experience</a></li></div>
+                    <div class="dropdown-content">                    
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                    <div><li class="flex4"> <a href="reflection.html">Reflection</a></li></div>
+                    <div><li class= "flex5"><a href="#contact.html">Contact</a></li></div>
+                </ul>
             </div>
-            <div> <li class= "flex1"> <a href="index.html">Home</a></li> </div>
-            <div> <li class= "flex2"> <a href="about.html" class = "active">Bio</a></li> </div>
-            <div><li class= "flex3"> <a href="project.html">Past Experience</a></li> </div>
-            <div> <li class= "flex4"> <a href="reflection.html">Reflection</a></li> </div>
-            <div><li class= "flex5"><a href="#contact.html">Contact</a></li> </div>
-        </ul>
-    </nav>
-</section>
+        </nav>
+    </section>
 
 <main>
-    <div>
+
+
+
+    <section class = "container">
+    <div class = "title">
         <h2>Education Overview</h2>
     </div>
-    <section class = "container1">
-        <div>
-            <img src = "/webdevelopment/myself.jpg" width = "200px" height = "200px">
-        </div>
-        <div class = "education">
+        <div class = "content">
+            <div class = "description">
             <p>
                 I am currently working to get a bachelor’s degree in computer science.
                 I am currently attending The University of Missouri. The expected completion 
@@ -59,32 +68,36 @@ Tested: March 4, 2024, Passed on Chrome and Microsoft Edge
                 classes in computer-integrated manufacturing, digital electronics, engineering 
                 design and development, basic C programming, and basic web development.
             </p>
+            </div>        
+            <div class = "image">
+            <img src = "/webdevelopment/myself.jpg" width = "200px" height = "200px">
         </div>
-        <div class = "resume">
+        </div>
+        <div>
             <p>
-                Link to resume <a href = "/webdevelopment/Resume.pdf">Resume.</a>
+                Link to <a href = "/webdevelopment/Resume.pdf">Resume.</a>
             </p>
         </div>
-    </section>
-    <section class = "container2">
         <div>
-            <h2>Bio</h2>
-        </div>        
-        <div class = "video-link">
             <p>
                 <a href = "#resumevideo">Resume Video</a>
             </p>
         </div>
-        <div class = "bio">
+    </section>
+    <section class = "container">
+        <div class = "title">
+            <h2>Bio</h2>
+        </div>        
+        <div class = "content">
+        <div class = "description">
             <p>My name is Olivia Sifuentes. I am interested in pursuing the software development 
                side of computer science. I enjoy designing and formatting the outputs of what I create. 
             </p>
         </div>
-    </section>
-    <section> 
         <div>
             <blockquote>“Success is not final; failure is not fatal; it is the courage to continue that counts.” - Winston Churchill</blockquote>
         </div>
+    </div>
     </section>
 </main>
 

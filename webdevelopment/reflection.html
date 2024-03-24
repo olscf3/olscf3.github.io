@@ -12,32 +12,53 @@ School/Term: University of Missouri, Spring 2024
 
 Developed: March 4, 2024
 
-Tested: March 4, Passed on Chrome and Microsoft Edge
+Tested: March 22, 2024 Passed on Chrome and Microsoft Edge
 
 -->
 <head>
-<title>Reflection</title>
+
 <meta charset="utf-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+<title>Reflection</title>
 <link rel="stylesheet"href="nav.css">
 <link rel="stylesheet"href="style.css">
+
 </head>
+
 <body>
-    <nav>
-        <ul>
-            <li class= "flex1"> <a href="index.html">Home</a></li>
-            <li class= "flex2"> <a href="about.html">Bio</a></li>
-            <li class= "flex3"> <a href="project.html">Past Experience</a></li>
-            <li class= "flex4"><a href="reflection.html">Reflection</a></li>
-            <li class= "flex5"><a href="#contact.html">Contact</a></li>
-        </ul>
-    </nav>
-   <header>
-    <h1>Reflection</h1>
-   </header>
-   <main>
-        <div>
-            <h2>Summary</h2>
-            <span class="first-letter">D</span>uring my short time in the workforce, I have developed and learned important qualities. 
+
+    <section class = "outer-box">
+        <nav>
+            <label id="hamburger">&#9776;</label>
+            <div>
+                <h1 class="h1">Past Experience</h1>
+            
+                <ul class="lg_nav">
+                    <div><li class="flex1"> <a href="index.html">Home</a></li></div>
+                    
+                    <div><li class="flex2"> <a href="about.html">Bio</a></li></div>
+                    <div><li class="flex3 dropdown"> <a href="project.html">Past Experience</a></li></div>
+                    <div class="dropdown-content">                    
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                    <div><li class="flex4"> <a href="reflection.html" class = "active">Reflection</a></li></div>
+                    <div><li class= "flex5"><a href="#contact.html">Contact</a></li></div>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+<main>
+    <div class = "title">
+        <h2>Summary</h2>
+    </div>
+    <section class = "container">
+        <div class = "content">
+            <div class = "description">
+                <p>
+               During my short time in the workforce, I have developed and learned important qualities. 
                These qualities came from jobs that had customer service, food service, and retail employee 
                positions. The skills I have built consist of customer service, food service, speed, organization 
                skills, time management, staying clean, staying on task, delivering good quality products to 
@@ -47,9 +68,15 @@ Tested: March 4, Passed on Chrome and Microsoft Edge
                I have always had a creative mindset. Designing the output of a website, app, or code is something 
                I am interested in mastering. 
                 </p>
+            </div>
         </div>
-        <div class="indent">
+    </section>
+    <section class = "container">
+        <div class = "title">
             <h2>My Goals</h2>
+        </div>
+        <div class = "content">
+            <div class = "description">
             <p>My current career goal is to leave Panda Express and TJ Maxx to work at a local T-Mobile store. 
                 Achieving this goal will build customer experience in dealing with issues that require troubleshooting. 
                 This job will also be my first credible job out of all my experience. It will also introduce me 
@@ -58,10 +85,17 @@ Tested: March 4, Passed on Chrome and Microsoft Edge
                 accepted in the workforce. I also want to have completed at least two internships before graduation. 
                 After graduation, it is my goal to find my first professional job that begins with a livable salary.
                 </p>
+            </div>
         </div>
-    </main>
+    </section>
+</main>
+
 <footer>
-    <p>&copy;Olivia Sifuentes olscf3@umsystem.edu</p>
+    <section>
+        <p>&copy;Olivia Sifuentes olscf3@umsystem.edu</p>
+    </section>
 </footer>
+
 </body>
+
 </html>
