@@ -354,4 +354,73 @@ footer p{
     }   
 }
 
+/*print style*/
+@media print 
+{
+    * 
+    {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        height: fit-content;
+    }
+    .outer-box
+    {
+        background-color: transparent;
+        border: transparent;
+        margin: 1;
+    }
+    ul 
+    {
+        display: none;
+    }
+    #hamburger
+    {
+        display: none;
+    }
+    .h1::after
+    {
+        display: center;
+        content: ' Olivia Sifuentes';
+        color: #000;
+        font-family: "signika";
+    }
+    h2 
+    {
+        font-family: sans-serif;
+    }
+    main 
+    {
+        margin: 1;
+        border: none;
+    }
+    p 
+    {
+        text-align: center;
+        font-family: sans-serif;
+    }
+    blockquote 
+    {
+        text-align: center;
+        font-family: sans-serif
+    }
+    footer
+    {
+        margin: 1;
+    }
+    img 
+    {
+        display: none;
+    }
+    a[href^="http:"]::after
+    {
+        content: " [" attr(href)"]";
+        color: #000;
+    }
+    @page
+    {
+        margin: 0.5cm;
+    }
+}
 
