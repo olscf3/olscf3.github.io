@@ -40,15 +40,25 @@ h2
 .container .content
 {
     display: flex;
-    padding: 0;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
 }
 .container .content .description
 {
-    width: 100%;
+    width: 60%;
 }
 .container .content .image
 {
     margin: auto;
+}
+.container .title a 
+{
+    float: right;
+}
+.container .title video 
+{
+    float: right;
+    display: absolute;
 }
 footer
 {
@@ -61,6 +71,17 @@ footer
 footer a
 {
     float: left;
+}
+.larger
+{
+    position: absolute;
+    width: 0px;
+    transition: width 0.3s linear 0s;
+    z-index: 10;
+}
+footer img:hover + .larger
+{
+    width: 100px;
 }
 
 /*adjust size of page for device small than desktop */
