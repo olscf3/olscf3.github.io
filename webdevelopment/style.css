@@ -18,7 +18,7 @@ nav, main, footer
     max-width: 100%;
     margin: auto;
 }
-.h1
+h1
 { 
     margin: 0;
     text-align: center;
@@ -202,6 +202,10 @@ table tbody tr:nth-child(odd) td
     {
         width: 90%
     }
+    form 
+    {
+        width: 80%;
+    }
     footer
     {
         width: 100%
@@ -255,6 +259,10 @@ table tbody tr:nth-child(odd) td
     {
         width: 100%;
     }
+    form 
+    {
+        width: 100%;
+    }
     footer
     {
         width: 100%
@@ -294,7 +302,7 @@ table tbody tr:nth-child(odd) td
     {
         display: none;
     }
-    .h1::after
+    h1::after
     {
         display: center;
         content: ' Olivia Sifuentes';
