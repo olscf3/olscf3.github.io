@@ -28,7 +28,6 @@ h2
 {
     text-align: center;
 }
-
 .container
 {
     width: 100%;
@@ -36,6 +35,7 @@ h2
 .container .title
 {
     text-align: center;
+    display: inline-block;
 }
 .container .content
 {
@@ -83,7 +83,32 @@ footer img:hover + .larger
 {
     width: 100px;
 }
+table
+{
+    border-collapse: collapse;
+    border: 10px solid cornflowerblue;
+}
+table thead th
+{
+    text-align: left;
+    background-color: rgb(211, 135, 255);
+    padding: 4px 30px 4px 8px;
 
+}
+table tbody td
+{
+    border: 1px solid black;
+}
+table tfoot td
+{
+    background-color: rgb(211, 135, 255);
+    color:rgb(211, 135, 255);
+    overflow: scroll;
+}
+table tbody tr:nth-child(odd) td
+{
+    background-color: white;
+}
 /*adjust size of page for device small than desktop */
 @media screen and (max-width: 1364px) 
 {
@@ -137,15 +162,15 @@ footer img:hover + .larger
 /*for device size of tablet*/
 @media screen and (max-width: 640px)
 { 
-    .container1
+    .container
     {
         width: 100%;
     }
-    .container2
+    .title
     {
         width: 100%;
     }
-    .container3
+    .description
     {
         width: 100%;
     }
@@ -186,15 +211,15 @@ footer img:hover + .larger
 /*for device size of phone*/
 @media screen and (max-width: 320px)
 {
-    .container1
+    .container
     {
         width: 100%;
     }
-    .container2
+    .title
     {
         width: 320px;
     }
-    .container3
+    .description
     {
         width: 100%;
     }
@@ -225,6 +250,10 @@ footer img:hover + .larger
     .bio
     {
         width: 90%
+    }
+    table
+    {
+        width: 100%;
     }
     footer
     {
