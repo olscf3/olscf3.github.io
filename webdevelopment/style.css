@@ -110,6 +110,11 @@ table tbody tr:nth-child(odd) td
 {
     background-color: white;
 }
+.container form 
+{
+    display: grid;
+    position: inline-block;
+}
 /*adjust size of page for device small than desktop */
 @media screen and (max-width: 1364px) 
 {
