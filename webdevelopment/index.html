@@ -12,7 +12,7 @@ School/Term: University of Missouri, Spring 2024
 
 Developed: Feburary 5, 2024
 
-Tested: March 22, 2024 Passed on Firefox and Microsoft Edge
+Tested: May 6, 2024 Passed on Firefox and Microsoft Edge
 
 -->
 <head>
@@ -31,6 +31,24 @@ Tested: March 22, 2024 Passed on Firefox and Microsoft Edge
 
     <section class = "outer-box">
         <nav>
+            <SCRIPT LANGUAGE="JavaScript">
+                
+                //Bread crumb script - Kevin Lynn Brown
+                //Duplicate directory names bug fix by JavaScriptKit.com
+                //Visit JavaScript Kit (http://javascriptkit.com) for script
+                
+                var path = "";
+                var href = document.location.href;
+                var s = href.split("/");
+                for (var i=2; i < (s.length-1); i++) {
+                path+="<A HREF=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i]+"</A> / ";
+                }
+                i=s.length-1;
+                path+="<A HREF=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</A>";
+                var url = window.location.protocol + "//" + path;
+                document.writeln(url);
+                
+            </script>   
             <label id="hamburger">&#9776;</label>
             <div>
                 <h1>Home Page</h1>
@@ -69,14 +87,16 @@ Tested: March 22, 2024 Passed on Firefox and Microsoft Edge
                 qualities as a worker. This website will also demonstrate my basic understanding of web 
                 development and design.
             </p>
-            <img src="/webdevelopment/fillerimage.png" width = "600px" height = "100px">
+            <img src="/webdevelopment/fillerimage.png" width = "600" height = "100">
         </div> 
     </section>
 </main>
 
 <footer>
 
-    <section>
+    <div>
+        
+        <p>This free script provided by <a href="http://javascriptkit.com">JavaScript Kit</a></p>
         <p>
         <a href="https://icons8.com/icon/8kHOhdrNngb3/sms">SMS icon by </a> <a href="https://icons8.com">Icons8</a>
         <a href="https://icons8.com/icon/cIGNNrdFperj/add-phone">Add Phone icon by </a> <a href="https://icons8.com">Icons8 </a>
@@ -86,9 +106,11 @@ Tested: March 22, 2024 Passed on Firefox and Microsoft Edge
         olscf3@umsystem.edu
         <img width="30" height="30" src="https://img.icons8.com/fluency-systems-regular/48/add-phone.png" alt="add-phone">
         <img class = "larger" src="https://img.icons8.com/fluency-systems-regular/48/add-phone.png" alt="add-phone">
-        1+888-888-8888</p>
-
-    </section>
+        1+888-888-8888
+        <a href="https://www.free-counters.org/">https://www.free-counters.org</a> <script type="text/javascript" src="https://www.freevisitorcounters.com/auth.php?id=624a8def08e7b8fa70718dbf2ca495988765a15b"></script>
+        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1177543/t/11"></script>
+        </p>
+    </div>
 
 </footer> 
 

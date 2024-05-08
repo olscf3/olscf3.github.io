@@ -4,17 +4,16 @@ ul
     display: grid;
     list-style-type: none;
     padding: 10px;
-    margin: 100;
-    border: 1px solid rgb(225, 221, 136);
-    background: rgb(225, 221, 136);
-    /*display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; */
     justify-content: center;
     align-items: center; 
     height: 40px;
     display: grid;
     grid-template: repeat(1, 50px)/repeat(auto-fit, minmax(25px, 1fr)); 
+    background: rgb(225, 221, 136);
+    border: 1px solid 
+    /*display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
     /*grid-gap: 20px;*/
 }
 /* List Content */
@@ -64,14 +63,13 @@ nav a
 .outer-box
 {
     display: grid;
-    grid-column-start: repeat(12, span 1fr);
     grid-row-start: 1;
     height: 150px;
-    background:rgb(211, 135, 255);
-    margin: 10;
-    padding: 0;
-    border: 1px solid rgb(211, 135, 255);
     width: 100%;
+    background:rgb(211, 135, 255);
+    margin: 10px;
+    padding: 0;
+    border: 1px solid 
 }
 /* Dropdown Button */
 nav a:active 

@@ -36,6 +36,7 @@ h2
 {
     text-align: center;
     display: inline-block;
+    margin: 50px;
 }
 .container .content
 {
@@ -58,7 +59,6 @@ h2
 .container .title video 
 {
     float: right;
-    display: absolute;
 }
 footer
 {
@@ -87,7 +87,7 @@ footer img:hover + .larger
 table
 {
     border-collapse: collapse;
-    border: 10px solid cornflowerblue;
+    border: 5px solid cornflowerblue;
 }
 table thead th
 {
@@ -100,20 +100,14 @@ table tbody td
 {
     border: 1px solid black;
 }
-table tfoot td
+table tbody tr
 {
     background-color: rgb(211, 135, 255);
-    color:rgb(211, 135, 255);
-    overflow: scroll;
-}
-table tbody tr:nth-child(odd) td
-{
-    background-color: white;
 }
 .container form 
 {
     display: grid;
-    position: inline-block;
+    position: relative;
 }
 /*adjust size of page for device small than desktop */
 @media screen and (max-width: 1364px) 
@@ -298,7 +292,7 @@ table tbody tr:nth-child(odd) td
     {
         background-color: transparent;
         border: transparent;
-        margin: 1;
+        margin: 1px;
     }
     ul 
     {
@@ -310,7 +304,7 @@ table tbody tr:nth-child(odd) td
     }
     h1::after
     {
-        display: center;
+        display: inline-block;
         content: ' Olivia Sifuentes';
         color: #000;
         font-family: "signika";
@@ -321,7 +315,7 @@ table tbody tr:nth-child(odd) td
     }
     main 
     {
-        margin: 1;
+        margin: 1px;
         border: none;
     }
     p 
@@ -336,7 +330,7 @@ table tbody tr:nth-child(odd) td
     }
     footer
     {
-        margin: 1;
+        margin: 1px;
     }
     img 
     {
